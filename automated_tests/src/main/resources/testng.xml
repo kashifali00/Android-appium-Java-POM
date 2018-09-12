@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="AppiumSuite" verbose="2" >
+    <test verbose="1" name="PliroRegressionSuite" preserve-order="true">
+        <classes>
+            <class name="tests.OnboardingPageTests"/>
+            <!--<class name="tests.LookingForDoctorPageTests"/>-->
+            <!--<class name="tests.LoginPageTests"/>-->
+            <!--&lt;!&ndash;<class name="tests.AppointmentBookingPatientTests"/>&ndash;&gt;-->
+            <!--<class name="tests.SettingsPageTests"/>-->
+
+            <!--<class name="tests.DoctorLoginPageTests"/>-->
+            <!--<class name="tests.AppointmentBookingDoctorTests"/>-->
+            <!--<class name="tests.RoleTests"/>-->
+            <!--<class name="tests.HealthCenterTests"/>-->
+            <!--<class name="tests.PendingTests"/>-->
+            <!--<class name="tests.AppointmentDeclineTests"/>-->
+            <!--<class name="tests.AppointmentConfirmTests"/>-->
+            <!--<class name="tests.AppointmentRescheduleTests"/>-->
+            <!--<class name="tests.DoctorSettingsPageTests"/>-->
+
+            <class name="tests.SkipLoginTests"/>
+
+            <class name="tests.PublicViewAppointmentTests"/>
+
+
+
+        </classes>
+
+    </test>
+</suite>

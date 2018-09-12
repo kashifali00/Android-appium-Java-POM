@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="538.767" tests="150" errors="0" skipped="61" failures="38">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\pliro-mobile-2.0\automated_tests\target\test-classes;D:\pliro-mobile-2.0\automated_tests\target\classes;C:\Users\Kashif\.m2\repository\org\seleniumhq\selenium\selenium-java\3.9.1\selenium-java-3.9.1.jar;C:\Users\Kashif\.m2\repository\org\seleniumhq\selenium\selenium-api\3.9.1\selenium-api-3.9.1.jar;C:\Users\Kashif\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.9.1\selenium-chrome-driver-3.9.1.jar;C:\Users\Kashif\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.9.1\selenium-edge-driver-3.9.1.jar;C:\Users\Kashif\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.9.1\selenium-firefox-driver-3.9.1.jar;C:\Users\Kashif\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.9.1\selenium-ie-driver-3.9.1.jar;C:\Users\Kashif\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.9.1\selenium-opera-driver-3.9.1.jar;C:\Users\Kashif\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.9.1\selenium-remote-driver-3.9.1.jar;C:\Users\Kashif\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.9.1\selenium-safari-driver-3.9.1.jar;C:\Users\Kashif\.m2\repository\org\seleniumhq\selenium\selenium-support\3.9.1\selenium-support-3.9.1.jar;C:\Users\Kashif\.m2\repository\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;C:\Users\Kashif\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Kashif\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Kashif\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Kashif\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\Kashif\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\Kashif\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Kashif\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Kashif\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Kashif\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Kashif\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Kashif\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\Kashif\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\Kashif\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\Kashif\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\Kashif\.m2\repository\org\testng\testng\6.8\testng-6.8.jar;C:\Users\Kashif\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Kashif\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\Kashif\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\Kashif\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\Kashif\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;C:\Users\Kashif\.m2\repository\io\appium\java-client\6.0.0-BETA3\java-client-6.0.0-BETA3.jar;C:\Users\Kashif\.m2\repository\cglib\cglib\3.2.5\cglib-3.2.5.jar;C:\Users\Kashif\.m2\repository\org\ow2\asm\asm\5.2\asm-5.2.jar;C:\Users\Kashif\.m2\repository\org\apache\ant\ant\1.9.6\ant-1.9.6.jar;C:\Users\Kashif\.m2\repository\org\apache\ant\ant-launcher\1.9.6\ant-launcher-1.9.6.jar;C:\Users\Kashif\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\Kashif\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\Kashif\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\Kashif\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Kashif\.m2\repository\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;C:\Users\Kashif\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Kashif\.m2\repository\org\springframework\spring-context\5.0.2.RELEASE\spring-context-5.0.2.RELEASE.jar;C:\Users\Kashif\.m2\repository\org\springframework\spring-aop\5.0.2.RELEASE\spring-aop-5.0.2.RELEASE.jar;C:\Users\Kashif\.m2\repository\org\springframework\spring-beans\5.0.2.RELEASE\spring-beans-5.0.2.RELEASE.jar;C:\Users\Kashif\.m2\repository\org\springframework\spring-core\5.0.2.RELEASE\spring-core-5.0.2.RELEASE.jar;C:\Users\Kashif\.m2\repository\org\springframework\spring-jcl\5.0.2.RELEASE\spring-jcl-5.0.2.RELEASE.jar;C:\Users\Kashif\.m2\repository\org\springframework\spring-expression\5.0.2.RELEASE\spring-expression-5.0.2.RELEASE.jar;C:\Users\Kashif\.m2\repository\org\aspectj\aspectjweaver\1.8.13\aspectjweaver-1.8.13.jar;C:\Users\Kashif\.m2\repository\org\openpnp\opencv\3.2.0-1\opencv-3.2.0-1.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\2.20.1\maven-surefire-plugin-2.20.1.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\surefire\maven-surefire-common\2.20.1\maven-surefire-common-2.20.1.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\maven-plugin-api\2.2.1\maven-plugin-api-2.2.1.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\plugin-tools\maven-plugin-annotations\3.3\maven-plugin-annotations-3.3.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\surefire\surefire-api\2.20.1\surefire-api-2.20.1.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\surefire\surefire-logger-api\2.20.1\surefire-logger-api-2.20.1.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\surefire\surefire-booter\2.20.1\surefire-booter-2.20.1.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\maven-artifact\2.2.1\maven-artifact-2.2.1.jar;C:\Users\Kashif\.m2\repository\org\codehaus\plexus\plexus-utils\1.5.15\plexus-utils-1.5.15.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\maven-plugin-descriptor\2.2.1\maven-plugin-descriptor-2.2.1.jar;C:\Users\Kashif\.m2\repository\org\codehaus\plexus\plexus-container-default\1.0-alpha-9-stable-1\plexus-container-default-1.0-alpha-9-stable-1.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\maven-project\2.2.1\maven-project-2.2.1.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\maven-settings\2.2.1\maven-settings-2.2.1.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\maven-profile\2.2.1\maven-profile-2.2.1.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\maven-artifact-manager\2.2.1\maven-artifact-manager-2.2.1.jar;C:\Users\Kashif\.m2\repository\backport-util-concurrent\backport-util-concurrent\3.1\backport-util-concurrent-3.1.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\maven-plugin-registry\2.2.1\maven-plugin-registry-2.2.1.jar;C:\Users\Kashif\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.11\plexus-interpolation-1.11.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\maven-model\2.2.1\maven-model-2.2.1.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\maven-core\2.2.1\maven-core-2.2.1.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\maven-plugin-parameter-documenter\2.2.1\maven-plugin-parameter-documenter-2.2.1.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\wagon\wagon-http\1.0-beta-6\wagon-http-1.0-beta-6.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\wagon\wagon-http-shared\1.0-beta-6\wagon-http-shared-1.0-beta-6.jar;C:\Users\Kashif\.m2\repository\nekohtml\xercesMinimal\1.9.6.2\xercesMinimal-1.9.6.2.jar;C:\Users\Kashif\.m2\repository\nekohtml\nekohtml\1.9.6.2\nekohtml-1.9.6.2.jar;C:\Users\Kashif\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\wagon\wagon-webdav-jackrabbit\1.0-beta-6\wagon-webdav-jackrabbit-1.0-beta-6.jar;C:\Users\Kashif\.m2\repository\org\apache\jackrabbit\jackrabbit-webdav\1.5.0\jackrabbit-webdav-1.5.0.jar;C:\Users\Kashif\.m2\repository\org\apache\jackrabbit\jackrabbit-jcr-commons\1.5.0\jackrabbit-jcr-commons-1.5.0.jar;C:\Users\Kashif\.m2\repository\org\slf4j\slf4j-nop\1.5.3\slf4j-nop-1.5.3.jar;C:\Users\Kashif\.m2\repository\org\slf4j\slf4j-jdk14\1.5.6\slf4j-jdk14-1.5.6.jar;C:\Users\Kashif\.m2\repository\org\slf4j\slf4j-api\1.5.6\slf4j-api-1.5.6.jar;C:\Users\Kashif\.m2\repository\org\slf4j\jcl-over-slf4j\1.5.6\jcl-over-slf4j-1.5.6.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\reporting\maven-reporting-api\2.2.1\maven-reporting-api-2.2.1.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\doxia\doxia-logging-api\1.1\doxia-logging-api-1.1.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\wagon\wagon-provider-api\1.0-beta-6\wagon-provider-api-1.0-beta-6.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\maven-repository-metadata\2.2.1\maven-repository-metadata-2.2.1.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\maven-error-diagnostics\2.2.1\maven-error-diagnostics-2.2.1.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\maven-monitor\2.2.1\maven-monitor-2.2.1.jar;C:\Users\Kashif\.m2\repository\classworlds\classworlds\1.1\classworlds-1.1.jar;C:\Users\Kashif\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar;C:\Users\Kashif\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\maven-toolchain\2.2.1\maven-toolchain-2.2.1.jar;C:\Users\Kashif\.m2\repository\com\aventstack\extentreports\3.0.1\extentreports-3.0.1.jar;C:\Users\Kashif\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Kashif\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Kashif\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Kashif\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Kashif\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Kashif\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\Kashif\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.20.1\surefire-testng-utils-2.20.1.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.20.1\surefire-grouper-2.20.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Karachi"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_25\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Kashif\AppData\Local\Temp\surefire6037395643860188295\surefirebooter7218447928771564168.jar C:\Users\Kashif\AppData\Local\Temp\surefire6037395643860188295 2018-07-10T17-46-50_523-jvmRun1 surefire8344759228331697275tmp surefire_01745148521474124873tmp"/>
+    <property name="surefire.test.class.path" value="D:\pliro-mobile-2.0\automated_tests\target\test-classes;D:\pliro-mobile-2.0\automated_tests\target\classes;C:\Users\Kashif\.m2\repository\org\seleniumhq\selenium\selenium-java\3.9.1\selenium-java-3.9.1.jar;C:\Users\Kashif\.m2\repository\org\seleniumhq\selenium\selenium-api\3.9.1\selenium-api-3.9.1.jar;C:\Users\Kashif\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.9.1\selenium-chrome-driver-3.9.1.jar;C:\Users\Kashif\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.9.1\selenium-edge-driver-3.9.1.jar;C:\Users\Kashif\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.9.1\selenium-firefox-driver-3.9.1.jar;C:\Users\Kashif\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.9.1\selenium-ie-driver-3.9.1.jar;C:\Users\Kashif\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.9.1\selenium-opera-driver-3.9.1.jar;C:\Users\Kashif\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.9.1\selenium-remote-driver-3.9.1.jar;C:\Users\Kashif\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.9.1\selenium-safari-driver-3.9.1.jar;C:\Users\Kashif\.m2\repository\org\seleniumhq\selenium\selenium-support\3.9.1\selenium-support-3.9.1.jar;C:\Users\Kashif\.m2\repository\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;C:\Users\Kashif\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Kashif\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Kashif\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Kashif\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\Kashif\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\Kashif\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Kashif\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Kashif\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Kashif\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Kashif\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Kashif\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\Kashif\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\Kashif\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\Kashif\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\Kashif\.m2\repository\org\testng\testng\6.8\testng-6.8.jar;C:\Users\Kashif\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Kashif\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\Kashif\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\Kashif\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\Kashif\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;C:\Users\Kashif\.m2\repository\io\appium\java-client\6.0.0-BETA3\java-client-6.0.0-BETA3.jar;C:\Users\Kashif\.m2\repository\cglib\cglib\3.2.5\cglib-3.2.5.jar;C:\Users\Kashif\.m2\repository\org\ow2\asm\asm\5.2\asm-5.2.jar;C:\Users\Kashif\.m2\repository\org\apache\ant\ant\1.9.6\ant-1.9.6.jar;C:\Users\Kashif\.m2\repository\org\apache\ant\ant-launcher\1.9.6\ant-launcher-1.9.6.jar;C:\Users\Kashif\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\Kashif\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\Kashif\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\Kashif\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Kashif\.m2\repository\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;C:\Users\Kashif\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Kashif\.m2\repository\org\springframework\spring-context\5.0.2.RELEASE\spring-context-5.0.2.RELEASE.jar;C:\Users\Kashif\.m2\repository\org\springframework\spring-aop\5.0.2.RELEASE\spring-aop-5.0.2.RELEASE.jar;C:\Users\Kashif\.m2\repository\org\springframework\spring-beans\5.0.2.RELEASE\spring-beans-5.0.2.RELEASE.jar;C:\Users\Kashif\.m2\repository\org\springframework\spring-core\5.0.2.RELEASE\spring-core-5.0.2.RELEASE.jar;C:\Users\Kashif\.m2\repository\org\springframework\spring-jcl\5.0.2.RELEASE\spring-jcl-5.0.2.RELEASE.jar;C:\Users\Kashif\.m2\repository\org\springframework\spring-expression\5.0.2.RELEASE\spring-expression-5.0.2.RELEASE.jar;C:\Users\Kashif\.m2\repository\org\aspectj\aspectjweaver\1.8.13\aspectjweaver-1.8.13.jar;C:\Users\Kashif\.m2\repository\org\openpnp\opencv\3.2.0-1\opencv-3.2.0-1.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\2.20.1\maven-surefire-plugin-2.20.1.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\surefire\maven-surefire-common\2.20.1\maven-surefire-common-2.20.1.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\maven-plugin-api\2.2.1\maven-plugin-api-2.2.1.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\plugin-tools\maven-plugin-annotations\3.3\maven-plugin-annotations-3.3.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\surefire\surefire-api\2.20.1\surefire-api-2.20.1.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\surefire\surefire-logger-api\2.20.1\surefire-logger-api-2.20.1.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\surefire\surefire-booter\2.20.1\surefire-booter-2.20.1.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\maven-artifact\2.2.1\maven-artifact-2.2.1.jar;C:\Users\Kashif\.m2\repository\org\codehaus\plexus\plexus-utils\1.5.15\plexus-utils-1.5.15.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\maven-plugin-descriptor\2.2.1\maven-plugin-descriptor-2.2.1.jar;C:\Users\Kashif\.m2\repository\org\codehaus\plexus\plexus-container-default\1.0-alpha-9-stable-1\plexus-container-default-1.0-alpha-9-stable-1.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\maven-project\2.2.1\maven-project-2.2.1.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\maven-settings\2.2.1\maven-settings-2.2.1.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\maven-profile\2.2.1\maven-profile-2.2.1.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\maven-artifact-manager\2.2.1\maven-artifact-manager-2.2.1.jar;C:\Users\Kashif\.m2\repository\backport-util-concurrent\backport-util-concurrent\3.1\backport-util-concurrent-3.1.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\maven-plugin-registry\2.2.1\maven-plugin-registry-2.2.1.jar;C:\Users\Kashif\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.11\plexus-interpolation-1.11.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\maven-model\2.2.1\maven-model-2.2.1.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\maven-core\2.2.1\maven-core-2.2.1.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\maven-plugin-parameter-documenter\2.2.1\maven-plugin-parameter-documenter-2.2.1.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\wagon\wagon-http\1.0-beta-6\wagon-http-1.0-beta-6.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\wagon\wagon-http-shared\1.0-beta-6\wagon-http-shared-1.0-beta-6.jar;C:\Users\Kashif\.m2\repository\nekohtml\xercesMinimal\1.9.6.2\xercesMinimal-1.9.6.2.jar;C:\Users\Kashif\.m2\repository\nekohtml\nekohtml\1.9.6.2\nekohtml-1.9.6.2.jar;C:\Users\Kashif\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\wagon\wagon-webdav-jackrabbit\1.0-beta-6\wagon-webdav-jackrabbit-1.0-beta-6.jar;C:\Users\Kashif\.m2\repository\org\apache\jackrabbit\jackrabbit-webdav\1.5.0\jackrabbit-webdav-1.5.0.jar;C:\Users\Kashif\.m2\repository\org\apache\jackrabbit\jackrabbit-jcr-commons\1.5.0\jackrabbit-jcr-commons-1.5.0.jar;C:\Users\Kashif\.m2\repository\org\slf4j\slf4j-nop\1.5.3\slf4j-nop-1.5.3.jar;C:\Users\Kashif\.m2\repository\org\slf4j\slf4j-jdk14\1.5.6\slf4j-jdk14-1.5.6.jar;C:\Users\Kashif\.m2\repository\org\slf4j\slf4j-api\1.5.6\slf4j-api-1.5.6.jar;C:\Users\Kashif\.m2\repository\org\slf4j\jcl-over-slf4j\1.5.6\jcl-over-slf4j-1.5.6.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\reporting\maven-reporting-api\2.2.1\maven-reporting-api-2.2.1.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\doxia\doxia-logging-api\1.1\doxia-logging-api-1.1.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\wagon\wagon-provider-api\1.0-beta-6\wagon-provider-api-1.0-beta-6.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\maven-repository-metadata\2.2.1\maven-repository-metadata-2.2.1.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\maven-error-diagnostics\2.2.1\maven-error-diagnostics-2.2.1.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\maven-monitor\2.2.1\maven-monitor-2.2.1.jar;C:\Users\Kashif\.m2\repository\classworlds\classworlds\1.1\classworlds-1.1.jar;C:\Users\Kashif\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar;C:\Users\Kashif\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\maven-toolchain\2.2.1\maven-toolchain-2.2.1.jar;C:\Users\Kashif\.m2\repository\com\aventstack\extentreports\3.0.1\extentreports-3.0.1.jar;C:\Users\Kashif\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Kashif\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Kashif\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Kashif\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Kashif\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Kashif\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\Kashif\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.20.1\surefire-testng-utils-2.20.1.jar;C:\Users\Kashif\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.20.1\surefire-grouper-2.20.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Kashif"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_25\jre"/>
+    <property name="basedir" value="D:\pliro-mobile-2.0\automated_tests"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Kashif\AppData\Local\Temp\surefire6037395643860188295\surefirebooter7218447928771564168.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_25\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_25\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_25-b18"/>
+    <property name="user.name" value="Kashif"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.3"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_25\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Kashif\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Kashif\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_25"/>
+    <property name="user.dir" value="D:\pliro-mobile-2.0\automated_tests"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_25\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;%JAVA_HOME%\bin;C:\Program Files\grails-2.4.3\bin;%MAVEN_HOME%\bin;C:\Program Files\Git\bin;C:\Program Files\Java\jdk1.8.0_25\bin;C:\Program Files\PostgreSQL\9.1\bin;D:\apache-ant-1.9.7-bin\apache-ant-1.9.7\bin;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\cURL\bin;C:\MinGW\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\nodejs\;C:\Users\Kashif\AppData\Local\Android\Sdk\build-tools;C:\Users\Kashif\AppData\Local\Android\Sdk\platform-tools;C:\Users\Kashif\AppData\Local\Android\Sdk\emulator;C:\Users\Kashif\AppData\Local\Android\Sdk\build-tools\27.0.3;;C:\WINDOWS\System32\OpenSSH\;C:\Users\Kashif\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Kashif\AppData\Local\Programs\Python\Python36\;C:\Users\Kashif\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Kashif\AppData\Local\Programs\Python\Python36-32\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_25\bin;C:\Program Files\grails-2.4.3\bin;C:\Program Files\apache-maven-3.3.9\bin;C:\Program Files\Git\bin;C:\Program Files\PostgreSQL\9.1\bin;D:\apache-ant-1.9.7-bin\apache-ant-1.9.7\bin;C:\Users\Kashif\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\cURL\bin;C:\MinGW\bin;C:\Program Files (x86)\Skype\Phone\;C:\Users\Kashif\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Nmap;C:\Users\Kashif\AppData\Roaming\Dashlane\4.6.6.23032\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Users\Kashif\AppData\Roaming\Dashlane\5.0.1.11267\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Users\Kashif\AppData\Roaming\Dashlane\5.0.1.11267\ucrt;C:\Users\Kashif\AppData\Local\Microsoft\WindowsApps;C:\Users\Kashif\AppData\Roaming\npm;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.25-b02"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="findGoodDoctorTextTest" classname="tests.OnboardingPageTests" time="4.455"/>
+  <testcase name="findDoctorCoverageTextTest" classname="tests.OnboardingPageTests" time="0.329"/>
+  <testcase name="visibilityOfSkipButton" classname="tests.OnboardingPageTests" time="0.137"/>
+  <testcase name="isSkipButtonEnabled" classname="tests.OnboardingPageTests" time="0.107"/>
+  <testcase name="clickOnNextPageButton" classname="tests.OnboardingPageTests" time="1.774"/>
+  <testcase name="visibilityOfAppointmentOnTheGoText" classname="tests.OnboardingPageTests" time="0.288"/>
+  <testcase name="visibilityOfFindBestDocText" classname="tests.OnboardingPageTests" time="0.264"/>
+  <testcase name="visibilityOfSkipButtonOnPage2" classname="tests.OnboardingPageTests" time="0.161"/>
+  <testcase name="againClickOnNextPageButton" classname="tests.OnboardingPageTests" time="0.085"/>
+  <testcase name="visibilityOfFindQuestionsText" classname="tests.OnboardingPageTests" time="1.098"/>
+  <testcase name="visibilityOfFindBestDocTextonPage3" classname="tests.OnboardingPageTests" time="0.261"/>
+  <testcase name="tapDoneButton" classname="tests.OnboardingPageTests" time="3.219"/>
+  <testcase name="lookingForDoctorPage" classname="tests.OnboardingPageTests" time="0.165"/>
+  <testcase name="clickOnSkipButtonOnOnboardingPage1" classname="tests.OnboardingPageTests" time="27.726"/>
+  <testcase name="isFindBestDoctorTextVisible" classname="tests.LookingForDoctorPageTests" time="0.201"/>
+  <testcase name="isLoginWithEmailButtonVisible" classname="tests.LookingForDoctorPageTests" time="0.169"/>
+  <testcase name="isDontHaveAccountTextVisible" classname="tests.LookingForDoctorPageTests" time="0.243"/>
+  <testcase name="isLoginWithEmailButtonEnabled" classname="tests.LookingForDoctorPageTests" time="0.051"/>
+  <testcase name="isSignupTextVisible" classname="tests.LookingForDoctorPageTests" time="0.177"/>
+  <testcase name="isSkipThisStepTextVisible" classname="tests.LookingForDoctorPageTests" time="0.21"/>
+  <testcase name="clickOnLoginWithEmailButton" classname="tests.LoginPageTests" time="1.33"/>
+  <testcase name="isEmailFieldVisible" classname="tests.LoginPageTests" time="0.152"/>
+  <testcase name="enterEmail" classname="tests.LoginPageTests" time="0.873"/>
+  <testcase name="isPasswordFieldVisible" classname="tests.LoginPageTests" time="0.675"/>
+  <testcase name="enterPassword" classname="tests.LoginPageTests" time="0.642"/>
+  <testcase name="isSignInButtonVisible" classname="tests.LoginPageTests" time="0.625"/>
+  <testcase name="isDontHaveAccountLinkTextVisible" classname="tests.LoginPageTests" time="0.157"/>
+  <testcase name="isSignUpNowLinkTextVisible" classname="tests.LoginPageTests" time="0.194"/>
+  <testcase name="clickOnSignInButton" classname="tests.LoginPageTests" time="0.922"/>
+  <testcase name="clickOnCONTINUEButton" classname="tests.LoginPageTests" time="7.019"/>
+  <testcase name="isSearchDoctorLinkTextVisible" classname="tests.AppointmentBookingPatientTests" time="0.222"/>
+  <testcase name="isSearchDiagnosticLinkTextVisible" classname="tests.AppointmentBookingPatientTests" time="0.346"/>
+  <testcase name="isTapToSelectLinkTextVisible" classname="tests.AppointmentBookingPatientTests" time="3.066"/>
+  <testcase name="isSelectionLocationLinkTextVisible" classname="tests.AppointmentBookingPatientTests" time="0.193"/>
+  <testcase name="isFindDoctorButtonVisible" classname="tests.AppointmentBookingPatientTests" time="0.194"/>
+  <testcase name="isMoreSpecialitiesLinkTextVisible" classname="tests.AppointmentBookingPatientTests" time="0.199"/>
+  <testcase name="clickOnTapToSelectDropDown" classname="tests.AppointmentBookingPatientTests" time="1.562"/>
+  <testcase name="isSearchVisible" classname="tests.AppointmentBookingPatientTests" time="0.203"/>
+  <testcase name="isCloseButtonVisible" classname="tests.AppointmentBookingPatientTests" time="0.211"/>
+  <testcase name="isCloseButtonClickable" classname="tests.AppointmentBookingPatientTests" time="3.548"/>
+  <testcase name="clickTapToSelectDropDown" classname="tests.AppointmentBookingPatientTests" time="2.121"/>
+  <testcase name="clickBackButton" classname="tests.AppointmentBookingPatientTests" time="0.313"/>
+  <testcase name="clickTapToSelectDD" classname="tests.AppointmentBookingPatientTests" time="2.597"/>
+  <testcase name="searchDoctor" classname="tests.AppointmentBookingPatientTests" time="6.818"/>
+  <testcase name="clickLocationDD" classname="tests.AppointmentBookingPatientTests" time="2.115"/>
+  <testcase name="isSearchFieldOnLocationPageVisible" classname="tests.AppointmentBookingPatientTests" time="0.203"/>
+  <testcase name="searchLocation" classname="tests.AppointmentBookingPatientTests" time="5.978"/>
+  <testcase name="tapFindDoctorButton" classname="tests.AppointmentBookingPatientTests" time="1.376"/>
+  <testcase name="selectDoctor" classname="tests.AppointmentBookingPatientTests" time="2.834"/>
+  <testcase name="isBookAppointmentButtonVisible" classname="tests.AppointmentBookingPatientTests" time="0.208"/>
+  <testcase name="tapBookAppointmentButton" classname="tests.AppointmentBookingPatientTests" time="1.853"/>
+  <testcase name="isTimeScheduleWindowPageAvailable" classname="tests.AppointmentBookingPatientTests" time="5.692">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;KASHIFALI&apos;, ip: &apos;192.168.1.135&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}&#10;Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621&#10;*** Element info: {Using=-android uiautomator, value=new UiSelector().text(&quot;Time Schedule&quot;)}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'KASHIFALI', ip: '192.168.1.135', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}
+Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Time Schedule")}
+	at tests.AppointmentBookingPatientTests.isTimeScheduleWindowPageAvailable(AppointmentBookingPatientTests.java:166)
+</failure>
+  </testcase>
+  <testcase name="isTimeSlotAvailable" classname="tests.AppointmentBookingPatientTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="isConfirmAppointmentButtonVisible" classname="tests.AppointmentBookingPatientTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tapConfirmAppointmentButton" classname="tests.AppointmentBookingPatientTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="congratulationsText" classname="tests.AppointmentBookingPatientTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="appointmentCompletedSuccessfullyText" classname="tests.AppointmentBookingPatientTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="continueUsingPliroButton" classname="tests.AppointmentBookingPatientTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tapContinueUsingPliroButton" classname="tests.AppointmentBookingPatientTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="clickonsettingsText" classname="tests.SettingsPageTests" time="5.514">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;KASHIFALI&apos;, ip: &apos;192.168.1.135&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}&#10;Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621&#10;*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout[4]/android.widget.ImageView}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'KASHIFALI', ip: '192.168.1.135', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}
+Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout[4]/android.widget.ImageView}
+	at tests.SettingsPageTests.clickonsettingsText(SettingsPageTests.java:13)
+</failure>
+  </testcase>
+  <testcase name="findLogoutText" classname="tests.SettingsPageTests" time="5.394">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;KASHIFALI&apos;, ip: &apos;192.168.1.135&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}&#10;Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621&#10;*** Element info: {Using=-android uiautomator, value=new UiSelector().text(&quot;Logout&quot;)}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'KASHIFALI', ip: '192.168.1.135', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}
+Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Logout")}
+	at tests.SettingsPageTests.findLogoutText(SettingsPageTests.java:20)
+</failure>
+  </testcase>
+  <testcase name="clickOnLoginWithEmailButton" classname="tests.DoctorLoginPageTests" time="5.389">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;KASHIFALI&apos;, ip: &apos;192.168.1.135&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}&#10;Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621&#10;*** Element info: {Using=-android uiautomator, value=new UiSelector().text(&quot;Login&quot;)}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'KASHIFALI', ip: '192.168.1.135', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}
+Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Login")}
+	at tests.DoctorLoginPageTests.clickOnLoginWithEmailButton(DoctorLoginPageTests.java:16)
+</failure>
+  </testcase>
+  <testcase name="enterEmail" classname="tests.DoctorLoginPageTests" time="5.401">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;KASHIFALI&apos;, ip: &apos;192.168.1.135&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}&#10;Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621&#10;*** Element info: {Using=-android uiautomator, value=new UiSelector().text(&quot;Email&quot;)}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'KASHIFALI', ip: '192.168.1.135', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}
+Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Email")}
+	at tests.DoctorLoginPageTests.enterEmail(DoctorLoginPageTests.java:22)
+</failure>
+  </testcase>
+  <testcase name="isPasswordFieldVisible" classname="tests.DoctorLoginPageTests" time="5.402">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;KASHIFALI&apos;, ip: &apos;192.168.1.135&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}&#10;Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621&#10;*** Element info: {Using=-android uiautomator, value=new UiSelector().text(&quot;Password&quot;)}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'KASHIFALI', ip: '192.168.1.135', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}
+Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Password")}
+	at tests.DoctorLoginPageTests.isPasswordFieldVisible(DoctorLoginPageTests.java:28)
+</failure>
+  </testcase>
+  <testcase name="enterPassword" classname="tests.DoctorLoginPageTests" time="5.324">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;KASHIFALI&apos;, ip: &apos;192.168.1.135&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}&#10;Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621&#10;*** Element info: {Using=-android uiautomator, value=new UiSelector().text(&quot;Password&quot;)}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'KASHIFALI', ip: '192.168.1.135', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}
+Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Password")}
+	at tests.DoctorLoginPageTests.enterPassword(DoctorLoginPageTests.java:34)
+</failure>
+  </testcase>
+  <testcase name="isSignInButtonVisible" classname="tests.DoctorLoginPageTests" time="5.346">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;KASHIFALI&apos;, ip: &apos;192.168.1.135&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}&#10;Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621&#10;*** Element info: {Using=-android uiautomator, value=new UiSelector().text(&quot;SIGN IN&quot;)}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'KASHIFALI', ip: '192.168.1.135', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}
+Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("SIGN IN")}
+	at tests.DoctorLoginPageTests.isSignInButtonVisible(DoctorLoginPageTests.java:40)
+</failure>
+  </testcase>
+  <testcase name="clickOnSignInButton" classname="tests.DoctorLoginPageTests" time="5.325">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;KASHIFALI&apos;, ip: &apos;192.168.1.135&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}&#10;Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621&#10;*** Element info: {Using=-android uiautomator, value=new UiSelector().text(&quot;SIGN IN&quot;)}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'KASHIFALI', ip: '192.168.1.135', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}
+Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("SIGN IN")}
+	at tests.DoctorLoginPageTests.clickOnSignInButton(DoctorLoginPageTests.java:46)
+</failure>
+  </testcase>
+  <testcase name="isTabToAppointmentTextVisible" classname="tests.AppointmentBookingDoctorTests" time="5.48">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;KASHIFALI&apos;, ip: &apos;192.168.1.135&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}&#10;Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621&#10;*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout[2]/android.widget.ImageView}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'KASHIFALI', ip: '192.168.1.135', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}
+Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout[2]/android.widget.ImageView}
+	at tests.AppointmentBookingDoctorTests.isTabToAppointmentTextVisible(AppointmentBookingDoctorTests.java:12)
+</failure>
+  </testcase>
+  <testcase name="isRoleTextVisible" classname="tests.AppointmentBookingDoctorTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="isHealthCareTextVisible" classname="tests.AppointmentBookingDoctorTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="isPendingTextVisible" classname="tests.AppointmentBookingDoctorTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="isRoleChangeLinkTextVisible" classname="tests.RoleTests" time="5.492">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;KASHIFALI&apos;, ip: &apos;192.168.1.135&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}&#10;Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621&#10;*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup[1]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'KASHIFALI', ip: '192.168.1.135', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}
+Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup[1]}
+	at tests.RoleTests.isRoleChangeLinkTextVisible(RoleTests.java:12)
+</failure>
+  </testcase>
+  <testcase name="clickOnRoleChangeDropDown" classname="tests.RoleTests" time="5.504">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;KASHIFALI&apos;, ip: &apos;192.168.1.135&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}&#10;Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621&#10;*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup[1]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'KASHIFALI', ip: '192.168.1.135', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}
+Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup[1]}
+	at tests.RoleTests.clickOnRoleChangeDropDown(RoleTests.java:18)
+</failure>
+  </testcase>
+  <testcase name="isSearchFieldOnLocationPageVisible" classname="tests.RoleTests" time="5.422">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;KASHIFALI&apos;, ip: &apos;192.168.1.135&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}&#10;Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621&#10;*** Element info: {Using=-android uiautomator, value=new UiSelector().text(&quot;Doctor&quot;)}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'KASHIFALI', ip: '192.168.1.135', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}
+Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Doctor")}
+	at tests.RoleTests.isSearchFieldOnLocationPageVisible(RoleTests.java:24)
+</failure>
+  </testcase>
+  <testcase name="searchRole" classname="tests.RoleTests" time="5.407">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;KASHIFALI&apos;, ip: &apos;192.168.1.135&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}&#10;Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621&#10;*** Element info: {Using=-android uiautomator, value=new UiSelector().text(&quot;Doctor&quot;)}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'KASHIFALI', ip: '192.168.1.135', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}
+Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Doctor")}
+	at tests.RoleTests.searchRole(RoleTests.java:30)
+</failure>
+  </testcase>
+  <testcase name="isHealthCenterChangeLinkTextVisible" classname="tests.HealthCenterTests" time="5.429">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;KASHIFALI&apos;, ip: &apos;192.168.1.135&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}&#10;Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621&#10;*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.TextView[2]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'KASHIFALI', ip: '192.168.1.135', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}
+Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.TextView[2]}
+	at tests.HealthCenterTests.isHealthCenterChangeLinkTextVisible(HealthCenterTests.java:12)
+</failure>
+  </testcase>
+  <testcase name="clickOnHCChangeDropDown" classname="tests.HealthCenterTests" time="5.468">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;KASHIFALI&apos;, ip: &apos;192.168.1.135&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}&#10;Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621&#10;*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.TextView[2]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'KASHIFALI', ip: '192.168.1.135', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}
+Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.TextView[2]}
+	at tests.HealthCenterTests.clickOnHCChangeDropDown(HealthCenterTests.java:18)
+</failure>
+  </testcase>
+  <testcase name="isSearchFieldOnHCPageVisible" classname="tests.HealthCenterTests" time="5.364">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;KASHIFALI&apos;, ip: &apos;192.168.1.135&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}&#10;Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621&#10;*** Element info: {Using=-android uiautomator, value=new UiSelector().text(&quot;The Dental Consultants, Jinnah Super&quot;)}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'KASHIFALI', ip: '192.168.1.135', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}
+Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("The Dental Consultants, Jinnah Super")}
+	at tests.HealthCenterTests.isSearchFieldOnHCPageVisible(HealthCenterTests.java:24)
+</failure>
+  </testcase>
+  <testcase name="searchHC" classname="tests.HealthCenterTests" time="5.383">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;KASHIFALI&apos;, ip: &apos;192.168.1.135&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}&#10;Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621&#10;*** Element info: {Using=-android uiautomator, value=new UiSelector().text(&quot;The Dental Consultants, Jinnah Super&quot;)}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'KASHIFALI', ip: '192.168.1.135', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}
+Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("The Dental Consultants, Jinnah Super")}
+	at tests.HealthCenterTests.searchHC(HealthCenterTests.java:30)
+</failure>
+  </testcase>
+  <testcase name="selectPendingAppointments" classname="tests.PendingTests" time="15.854">
+    <failure message="No Pending Appointment" type="java.lang.AssertionError">java.lang.AssertionError: No Pending Appointment
+	at tests.PendingTests.selectPendingAppointments(PendingTests.java:11)
+</failure>
+    <system-out><![CDATA[getNoPending() :: elementExist() ::  false
+]]></system-out>
+  </testcase>
+  <testcase name="isRescheduleLinkTextVisible" classname="tests.PendingTests" time="10.749">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;KASHIFALI&apos;, ip: &apos;192.168.1.135&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}&#10;Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621&#10;*** Element info: {Using=-android uiautomator, value=new UiSelector().text(&quot;Reschedule&quot;)}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'KASHIFALI', ip: '192.168.1.135', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}
+Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Reschedule")}
+	at tests.PendingTests.isRescheduleLinkTextVisible(PendingTests.java:17)
+</failure>
+  </testcase>
+  <testcase name="isDeclineLinkTextVisible" classname="tests.PendingTests" time="10.723">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;KASHIFALI&apos;, ip: &apos;192.168.1.135&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}&#10;Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621&#10;*** Element info: {Using=-android uiautomator, value=new UiSelector().text(&quot;Decline&quot;)}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'KASHIFALI', ip: '192.168.1.135', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}
+Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Decline")}
+	at tests.PendingTests.isDeclineLinkTextVisible(PendingTests.java:23)
+</failure>
+  </testcase>
+  <testcase name="isConfirmLinkTextVisible" classname="tests.PendingTests" time="10.706">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;KASHIFALI&apos;, ip: &apos;192.168.1.135&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}&#10;Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621&#10;*** Element info: {Using=-android uiautomator, value=new UiSelector().text(&quot;Confirm&quot;)}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'KASHIFALI', ip: '192.168.1.135', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}
+Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Confirm")}
+	at tests.PendingTests.isConfirmLinkTextVisible(PendingTests.java:29)
+</failure>
+  </testcase>
+  <testcase name="clickOnDeclineLinkText" classname="tests.AppointmentDeclineTests" time="10.718">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;KASHIFALI&apos;, ip: &apos;192.168.1.135&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}&#10;Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621&#10;*** Element info: {Using=-android uiautomator, value=new UiSelector().text(&quot;Decline&quot;)}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'KASHIFALI', ip: '192.168.1.135', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}
+Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Decline")}
+	at tests.AppointmentDeclineTests.clickOnDeclineLinkText(AppointmentDeclineTests.java:12)
+</failure>
+  </testcase>
+  <testcase name="isConfirmDeclineAppointmentTextVisible" classname="tests.AppointmentDeclineTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="isCancelTextVisible" classname="tests.AppointmentDeclineTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="isOkTextVisible" classname="tests.AppointmentDeclineTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="clickOnCancelLinkText" classname="tests.AppointmentDeclineTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="clickOnDeclineOklLinkText" classname="tests.AppointmentDeclineTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="clickOnConfirmLinkText" classname="tests.AppointmentConfirmTests" time="10.683">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;KASHIFALI&apos;, ip: &apos;192.168.1.135&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}&#10;Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621&#10;*** Element info: {Using=-android uiautomator, value=new UiSelector().text(&quot;Confirm&quot;)}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'KASHIFALI', ip: '192.168.1.135', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}
+Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Confirm")}
+	at tests.AppointmentConfirmTests.clickOnConfirmLinkText(AppointmentConfirmTests.java:15)
+</failure>
+  </testcase>
+  <testcase name="isConfirmAppointmentTextVisible" classname="tests.AppointmentConfirmTests" time="10.654">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;KASHIFALI&apos;, ip: &apos;192.168.1.135&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}&#10;Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621&#10;*** Element info: {Using=-android uiautomator, value=new UiSelector().text(&quot;Confirm Appointment&quot;)}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'KASHIFALI', ip: '192.168.1.135', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}
+Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Confirm Appointment")}
+	at tests.AppointmentConfirmTests.isConfirmAppointmentTextVisible(AppointmentConfirmTests.java:20)
+</failure>
+  </testcase>
+  <testcase name="isCancelTextVisible" classname="tests.AppointmentConfirmTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="isOkTextVisible" classname="tests.AppointmentConfirmTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="clickOnCancelLinkText" classname="tests.AppointmentConfirmTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="clickOnCancelOklLinkText" classname="tests.AppointmentConfirmTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="clickOnRescheduleCancelLinkText" classname="tests.AppointmentRescheduleTests" time="15.839">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;KASHIFALI&apos;, ip: &apos;192.168.1.135&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}&#10;Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621&#10;*** Element info: {Using=-android uiautomator, value=new UiSelector().text(&quot;Reschedule&quot;)}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'KASHIFALI', ip: '192.168.1.135', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}
+Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Reschedule")}
+	at tests.AppointmentRescheduleTests.clickOnRescheduleCancelLinkText(AppointmentRescheduleTests.java:21)
+</failure>
+  </testcase>
+  <testcase name="clickOnRescheduleConfirmLinkText" classname="tests.AppointmentRescheduleTests" time="16.03">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;KASHIFALI&apos;, ip: &apos;192.168.1.135&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}&#10;Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621&#10;*** Element info: {Using=-android uiautomator, value=new UiSelector().text(&quot;Reschedule&quot;)}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'KASHIFALI', ip: '192.168.1.135', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}
+Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Reschedule")}
+	at tests.AppointmentRescheduleTests.clickOnRescheduleConfirmLinkText(AppointmentRescheduleTests.java:39)
+</failure>
+  </testcase>
+  <testcase name="clickonsettingsText" classname="tests.DoctorSettingsPageTests" time="5.407">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;KASHIFALI&apos;, ip: &apos;192.168.1.135&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}&#10;Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621&#10;*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout[4]/android.widget.ImageView}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'KASHIFALI', ip: '192.168.1.135', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}
+Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout[4]/android.widget.ImageView}
+	at tests.DoctorSettingsPageTests.clickonsettingsText(DoctorSettingsPageTests.java:15)
+</failure>
+  </testcase>
+  <testcase name="findLogoutText" classname="tests.DoctorSettingsPageTests" time="5.577">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;KASHIFALI&apos;, ip: &apos;192.168.1.135&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}&#10;Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621&#10;*** Element info: {Using=-android uiautomator, value=new UiSelector().text(&quot;Logout&quot;)}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'KASHIFALI', ip: '192.168.1.135', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}
+Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Logout")}
+	at tests.DoctorSettingsPageTests.findLogoutText(DoctorSettingsPageTests.java:22)
+</failure>
+  </testcase>
+  <testcase name="isFindBestDoctorTextVisible" classname="tests.SkipLoginTests" time="5.369">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;KASHIFALI&apos;, ip: &apos;192.168.1.135&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}&#10;Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621&#10;*** Element info: {Using=-android uiautomator, value=new UiSelector().text(&quot;Find the best doctors nearby and book health appointments at available times.&quot;)}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'KASHIFALI', ip: '192.168.1.135', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}
+Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Find the best doctors nearby and book health appointments at available times.")}
+	at tests.SkipLoginTests.isFindBestDoctorTextVisible(SkipLoginTests.java:15)
+</failure>
+  </testcase>
+  <testcase name="isLoginWithEmailButtonVisible" classname="tests.SkipLoginTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="isSkipThisStepTextVisible" classname="tests.SkipLoginTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="isDontHaveAccountTextVisible" classname="tests.SkipLoginTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="isSignupTextVisible" classname="tests.SkipLoginTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tabSkipThisStepLinkText" classname="tests.SkipLoginTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="clickOnCONTINUEButton" classname="tests.SkipLoginTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="isSearchButtonVisible" classname="tests.PublicViewAppointmentTests" time="5.457">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;KASHIFALI&apos;, ip: &apos;192.168.1.135&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}&#10;Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621&#10;*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout[1]/android.widget.ImageView}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'KASHIFALI', ip: '192.168.1.135', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}
+Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout[1]/android.widget.ImageView}
+	at tests.PublicViewAppointmentTests.isSearchButtonVisible(PublicViewAppointmentTests.java:16)
+</failure>
+  </testcase>
+  <testcase name="isSearchDiagnosticLinkTextVisible" classname="tests.PublicViewAppointmentTests" time="5.333">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;KASHIFALI&apos;, ip: &apos;192.168.1.135&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}&#10;Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621&#10;*** Element info: {Using=-android uiautomator, value=new UiSelector().text(&quot;Search Diagnostic&quot;)}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'KASHIFALI', ip: '192.168.1.135', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}
+Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Search Diagnostic")}
+	at tests.PublicViewAppointmentTests.isSearchDiagnosticLinkTextVisible(PublicViewAppointmentTests.java:29)
+</failure>
+  </testcase>
+  <testcase name="isTapToSelectLinkTextVisible" classname="tests.PublicViewAppointmentTests" time="5.328">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;KASHIFALI&apos;, ip: &apos;192.168.1.135&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}&#10;Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621&#10;*** Element info: {Using=-android uiautomator, value=new UiSelector().text(&quot;Specialty, doctor, or health center&quot;)}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'KASHIFALI', ip: '192.168.1.135', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}
+Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Specialty, doctor, or health center")}
+	at tests.PublicViewAppointmentTests.isTapToSelectLinkTextVisible(PublicViewAppointmentTests.java:36)
+</failure>
+  </testcase>
+  <testcase name="isSelectionLocationLinkTextVisible" classname="tests.PublicViewAppointmentTests" time="5.26">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;KASHIFALI&apos;, ip: &apos;192.168.1.135&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}&#10;Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621&#10;*** Element info: {Using=-android uiautomator, value=new UiSelector().text(&quot;Select location&quot;)}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'KASHIFALI', ip: '192.168.1.135', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}
+Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Select location")}
+	at tests.PublicViewAppointmentTests.isSelectionLocationLinkTextVisible(PublicViewAppointmentTests.java:43)
+</failure>
+  </testcase>
+  <testcase name="isFindDoctorButtonVisible" classname="tests.PublicViewAppointmentTests" time="5.288">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;KASHIFALI&apos;, ip: &apos;192.168.1.135&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}&#10;Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621&#10;*** Element info: {Using=-android uiautomator, value=new UiSelector().text(&quot;FIND DOCTOR&quot;)}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'KASHIFALI', ip: '192.168.1.135', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}
+Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("FIND DOCTOR")}
+	at tests.PublicViewAppointmentTests.isFindDoctorButtonVisible(PublicViewAppointmentTests.java:50)
+</failure>
+  </testcase>
+  <testcase name="isMoreSpecialitiesLinkTextVisible" classname="tests.PublicViewAppointmentTests" time="5.308">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;KASHIFALI&apos;, ip: &apos;192.168.1.135&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}&#10;Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621&#10;*** Element info: {Using=-android uiautomator, value=new UiSelector().text(&quot;More Specialities&quot;)}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'KASHIFALI', ip: '192.168.1.135', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}
+Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("More Specialities")}
+	at tests.PublicViewAppointmentTests.isMoreSpecialitiesLinkTextVisible(PublicViewAppointmentTests.java:57)
+</failure>
+  </testcase>
+  <testcase name="clickOnTapToSelectDropDown" classname="tests.PublicViewAppointmentTests" time="5.278">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;KASHIFALI&apos;, ip: &apos;192.168.1.135&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}&#10;Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621&#10;*** Element info: {Using=-android uiautomator, value=new UiSelector().text(&quot;Specialty, doctor, or health center&quot;)}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'KASHIFALI', ip: '192.168.1.135', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}
+Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Specialty, doctor, or health center")}
+	at tests.PublicViewAppointmentTests.clickOnTapToSelectDropDown(PublicViewAppointmentTests.java:64)
+</failure>
+  </testcase>
+  <testcase name="isSearchVisible" classname="tests.PublicViewAppointmentTests" time="5.222">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;KASHIFALI&apos;, ip: &apos;192.168.1.135&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}&#10;Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621&#10;*** Element info: {Using=-android uiautomator, value=new UiSelector().text(&quot;Search&quot;)}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'KASHIFALI', ip: '192.168.1.135', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\pliro-mobile-2.0\automat..., appActivity: com.pliro_mobile_2.SplashAc..., appPackage: com.aurora.pliro, automationName: UiAutomator2, deviceName: emulator-5554, javascriptEnabled: true, newCommandTimeout: 30, platform: ANDROID, platformName: ANDROID, platformVersion: 7.1.1}
+Session ID: 53f6dfe6-c93c-4343-b890-8e9ebbad1621
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Search")}
+	at tests.PublicViewAppointmentTests.isSearchVisible(PublicViewAppointmentTests.java:70)
+</failure>
+  </testcase>
+  <testcase name="isCloseButtonVisible" classname="tests.PublicViewAppointmentTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="isCloseButtonClickable" classname="tests.PublicViewAppointmentTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="clickTapToSelectDropDown" classname="tests.PublicViewAppointmentTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="clickBackButton" classname="tests.PublicViewAppointmentTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="clickTapToSelectDD" classname="tests.PublicViewAppointmentTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="searchDoctor" classname="tests.PublicViewAppointmentTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="clickLocationDD" classname="tests.PublicViewAppointmentTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="isSearchFieldOnLocationPageVisible" classname="tests.PublicViewAppointmentTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="searchLocation" classname="tests.PublicViewAppointmentTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tapFindDoctorButton" classname="tests.PublicViewAppointmentTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="selectDoctor" classname="tests.PublicViewAppointmentTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="isBookAppointmentButtonVisible" classname="tests.PublicViewAppointmentTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tapBookAppointmentButton" classname="tests.PublicViewAppointmentTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="isEnterNameFieldVisible" classname="tests.PublicViewAppointmentTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="enterName" classname="tests.PublicViewAppointmentTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="isPhoneNumberFieldVisible" classname="tests.PublicViewAppointmentTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="isPatientInfoTextVisible" classname="tests.PublicViewAppointmentTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="enterPhonenumber" classname="tests.PublicViewAppointmentTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="clickOnConfirmAppointmentButton" classname="tests.PublicViewAppointmentTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="clickOnConfirmAppointmentButtonAgain" classname="tests.PublicViewAppointmentTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="isTimeScheduleWindowPageAvailable" classname="tests.PublicViewAppointmentTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="isTimeSlotAvailable" classname="tests.PublicViewAppointmentTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="isConfirmAppointmentButtonVisible" classname="tests.PublicViewAppointmentTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tapConfirmAppointmentButton" classname="tests.PublicViewAppointmentTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="isCheckYourEmailTextVisible" classname="tests.PublicViewAppointmentTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="isOrPhoneTextVisible" classname="tests.PublicViewAppointmentTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="isCodeValue1FieldVisible" classname="tests.PublicViewAppointmentTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="enterCodeValue1Field" classname="tests.PublicViewAppointmentTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="isCodeValue2FieldVisible" classname="tests.PublicViewAppointmentTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="enterCodeValue2Field" classname="tests.PublicViewAppointmentTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="isCodeValue3FieldVisible" classname="tests.PublicViewAppointmentTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="enterCodeValue3Field" classname="tests.PublicViewAppointmentTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="isCodeValue4FieldVisible" classname="tests.PublicViewAppointmentTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="enterCodeValue4Field" classname="tests.PublicViewAppointmentTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="congratulationsText" classname="tests.PublicViewAppointmentTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="appointmentCompletedSuccessfullyText" classname="tests.PublicViewAppointmentTests" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

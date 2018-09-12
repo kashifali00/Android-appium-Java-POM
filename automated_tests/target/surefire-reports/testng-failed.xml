@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [AppiumSuite]">
+  <test name="PliroRegressionSuite(failed)">
+    <classes>
+      <class name="tests.SkipLoginTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="isFindBestDoctorTextVisible"/>
+          <include name="endReport"/>
+          <include name="tabSkipThisStepLinkText"/>
+          <include name="clickOnCONTINUEButton"/>
+          <include name="isSkipThisStepTextVisible"/>
+          <include name="ReportSetUp"/>
+          <include name="setUp"/>
+          <include name="isLoginWithEmailButtonVisible"/>
+          <include name="getResult"/>
+          <include name="isDontHaveAccountTextVisible"/>
+          <include name="isSignupTextVisible"/>
+        </methods>
+      </class> <!-- tests.SkipLoginTests -->
+      <class name="tests.LoginPageTests">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- tests.LoginPageTests -->
+      <class name="tests.LookingForDoctorPageTests">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- tests.LookingForDoctorPageTests -->
+      <class name="tests.PendingTests">
+        <methods>
+          <include name="isConfirmLinkTextVisible"/>
+          <include name="isRescheduleLinkTextVisible"/>
+          <include name="getResult"/>
+          <include name="isDeclineLinkTextVisible"/>
+          <include name="selectPendingAppointments"/>
+        </methods>
+      </class> <!-- tests.PendingTests -->
+      <class name="tests.AppointmentRescheduleTests">
+        <methods>
+          <include name="clickOnRescheduleCancelLinkText"/>
+          <include name="getResult"/>
+          <include name="clickOnRescheduleConfirmLinkText"/>
+        </methods>
+      </class> <!-- tests.AppointmentRescheduleTests -->
+      <class name="tests.AppointmentDeclineTests">
+        <methods>
+          <include name="isConfirmDeclineAppointmentTextVisible"/>
+          <include name="clickOnCancelLinkText"/>
+          <include name="isOkTextVisible"/>
+          <include name="clickOnDeclineOklLinkText"/>
+          <include name="getResult"/>
+          <include name="isCancelTextVisible"/>
+          <include name="clickOnDeclineLinkText"/>
+        </methods>
+      </class> <!-- tests.AppointmentDeclineTests -->
+      <class name="tests.AppointmentBookingDoctorTests">
+        <methods>
+          <include name="isRoleTextVisible"/>
+          <include name="isTabToAppointmentTextVisible"/>
+          <include name="isPendingTextVisible"/>
+          <include name="isHealthCareTextVisible"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- tests.AppointmentBookingDoctorTests -->
+      <class name="tests.AppointmentConfirmTests">
+        <methods>
+          <include name="clickOnConfirmLinkText"/>
+          <include name="isCancelTextVisible"/>
+          <include name="isConfirmAppointmentTextVisible"/>
+          <include name="clickOnCancelLinkText"/>
+          <include name="getResult"/>
+          <include name="clickOnCancelOklLinkText"/>
+          <include name="isOkTextVisible"/>
+        </methods>
+      </class> <!-- tests.AppointmentConfirmTests -->
+      <class name="tests.AppointmentBookingPatientTests">
+        <methods>
+          <include name="clickLocationDD"/>
+          <include name="clickOnTapToSelectDropDown"/>
+          <include name="tapContinueUsingPliroButton"/>
+          <include name="congratulationsText"/>
+          <include name="appointmentCompletedSuccessfullyText"/>
+          <include name="isCloseButtonVisible"/>
+          <include name="isSearchFieldOnLocationPageVisible"/>
+          <include name="clickTapToSelectDropDown"/>
+          <include name="searchLocation"/>
+          <include name="isSelectionLocationLinkTextVisible"/>
+          <include name="searchDoctor"/>
+          <include name="isTimeSlotAvailable"/>
+          <include name="isSearchVisible"/>
+          <include name="isTimeScheduleWindowPageAvailable"/>
+          <include name="isMoreSpecialitiesLinkTextVisible"/>
+          <include name="isFindDoctorButtonVisible"/>
+          <include name="isSearchDoctorLinkTextVisible"/>
+          <include name="tapFindDoctorButton"/>
+          <include name="continueUsingPliroButton"/>
+          <include name="isBookAppointmentButtonVisible"/>
+          <include name="isConfirmAppointmentButtonVisible"/>
+          <include name="isCloseButtonClickable"/>
+          <include name="clickBackButton"/>
+          <include name="selectDoctor"/>
+          <include name="clickTapToSelectDD"/>
+          <include name="tapBookAppointmentButton"/>
+          <include name="getResult"/>
+          <include name="tapConfirmAppointmentButton"/>
+          <include name="isTapToSelectLinkTextVisible"/>
+        </methods>
+      </class> <!-- tests.AppointmentBookingPatientTests -->
+      <class name="tests.DoctorLoginPageTests">
+        <methods>
+          <include name="clickOnLoginWithEmailButton"/>
+          <include name="clickOnSignInButton"/>
+          <include name="enterEmail"/>
+          <include name="isSignInButtonVisible"/>
+          <include name="isPasswordFieldVisible"/>
+          <include name="getResult"/>
+          <include name="enterPassword"/>
+        </methods>
+      </class> <!-- tests.DoctorLoginPageTests -->
+      <class name="tests.HealthCenterTests">
+        <methods>
+          <include name="clickOnHCChangeDropDown"/>
+          <include name="isSearchFieldOnHCPageVisible"/>
+          <include name="getResult"/>
+          <include name="isHealthCenterChangeLinkTextVisible"/>
+          <include name="searchHC"/>
+        </methods>
+      </class> <!-- tests.HealthCenterTests -->
+      <class name="tests.PublicViewAppointmentTests">
+        <methods>
+          <include name="isEnterNameFieldVisible"/>
+          <include name="enterPhonenumber"/>
+          <include name="isPatientInfoTextVisible"/>
+          <include name="clickLocationDD"/>
+          <include name="clickOnConfirmAppointmentButton"/>
+          <include name="appointmentCompletedSuccessfullyText"/>
+          <include name="clickOnTapToSelectDropDown"/>
+          <include name="isCloseButtonClickable"/>
+          <include name="clickOnConfirmAppointmentButtonAgain"/>
+          <include name="enterCodeValue1Field"/>
+          <include name="isSearchFieldOnLocationPageVisible"/>
+          <include name="clickTapToSelectDropDown"/>
+          <include name="searchLocation"/>
+          <include name="isCloseButtonVisible"/>
+          <include name="searchDoctor"/>
+          <include name="enterCodeValue4Field"/>
+          <include name="isTimeSlotAvailable"/>
+          <include name="isSearchDiagnosticLinkTextVisible"/>
+          <include name="isMoreSpecialitiesLinkTextVisible"/>
+          <include name="isPhoneNumberFieldVisible"/>
+          <include name="isSearchVisible"/>
+          <include name="isSelectionLocationLinkTextVisible"/>
+          <include name="enterCodeValue2Field"/>
+          <include name="tapFindDoctorButton"/>
+          <include name="isFindDoctorButtonVisible"/>
+          <include name="isSearchButtonVisible"/>
+          <include name="isTimeScheduleWindowPageAvailable"/>
+          <include name="isConfirmAppointmentButtonVisible"/>
+          <include name="isCodeValue2FieldVisible"/>
+          <include name="isBookAppointmentButtonVisible"/>
+          <include name="isCodeValue4FieldVisible"/>
+          <include name="clickTapToSelectDD"/>
+          <include name="enterName"/>
+          <include name="clickBackButton"/>
+          <include name="selectDoctor"/>
+          <include name="enterCodeValue3Field"/>
+          <include name="isCheckYourEmailTextVisible"/>
+          <include name="tapBookAppointmentButton"/>
+          <include name="isOrPhoneTextVisible"/>
+          <include name="isCodeValue1FieldVisible"/>
+          <include name="isCodeValue3FieldVisible"/>
+          <include name="tapConfirmAppointmentButton"/>
+          <include name="getResult"/>
+          <include name="congratulationsText"/>
+          <include name="isTapToSelectLinkTextVisible"/>
+        </methods>
+      </class> <!-- tests.PublicViewAppointmentTests -->
+      <class name="tests.RoleTests">
+        <methods>
+          <include name="clickOnRoleChangeDropDown"/>
+          <include name="isSearchFieldOnLocationPageVisible"/>
+          <include name="searchRole"/>
+          <include name="isRoleChangeLinkTextVisible"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- tests.RoleTests -->
+      <class name="tests.SettingsPageTests">
+        <methods>
+          <include name="clickonsettingsText"/>
+          <include name="getResult"/>
+          <include name="findLogoutText"/>
+        </methods>
+      </class> <!-- tests.SettingsPageTests -->
+      <class name="tests.DoctorSettingsPageTests">
+        <methods>
+          <include name="getResult"/>
+          <include name="clickonsettingsText"/>
+          <include name="findLogoutText"/>
+        </methods>
+      </class> <!-- tests.DoctorSettingsPageTests -->
+      <class name="tests.OnboardingPageTests">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- tests.OnboardingPageTests -->
+    </classes>
+  </test> <!-- PliroRegressionSuite(failed) -->
+</suite> <!-- Failed suite [AppiumSuite] -->
